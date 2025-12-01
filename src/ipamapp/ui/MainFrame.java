@@ -91,7 +91,7 @@ public class MainFrame extends JFrame {
             }
         });
 
-        // ---------- BOTTOM BUTTONS ----------
+        // Button bawah 
         JPanel panelActions = new JPanel(new FlowLayout(FlowLayout.RIGHT, 8, 6));
         btnUpdate = new JButton("Update Entry");
         btnRemove = new JButton("Delete Entry");
@@ -124,7 +124,7 @@ public class MainFrame extends JFrame {
             }
         });
 
-        // ---------- MENU BAR ----------
+        // MENU BAR ----------
         JMenuBar menuBar = new JMenuBar();
 
         JMenu fileMenu = new JMenu("File");
